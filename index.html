@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RateIt - Product & Service Ratings</title>
+</head>
+<body>
+    <!-- Main heading -->
+    <h1>Welcome to RateIt!</h1>
+    
+    <!-- Subheading with a short description -->
+    <h2>Rate and Review Products and Services</h2>
+
+    <!-- Paragraph explaining the site purpose -->
+    <p>
+        Our mission is to help users make better decisions and businesses improve their services. 
+        Use this app to rate the things you've used and share your feedback with the world!
+    </p>
+
+    <!-- Sample rating form -->
+    <form action="#" method="post">
+        <!-- HTML comment: This section collects user input for ratings -->
+        <label for="product">Product or Service Name:</label><br>
+        <input type="text" id="product" name="product"><br><br>
+
+        <label for="rating">Your Rating (1-5):</label><br>
+        <select id="rating" name="rating">
+            <option value="1">1 - Poor</option>
+            <option value="2">2 - Fair</option>
+            <option value="3">3 - Good</option>
+            <option value="4">4 - Very Good</option>
+            <option value="5">5 - Excellent</option>
+        </select><br><br>
+
+        <label for="review">Your Feedback:</label><br>
+        <textarea id="review" name="review" rows="4" cols="50" placeholder="Write your thoughts here..."></textarea><br><br>
+
+        <input type="submit" value="Submit Rating">
+    </form>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 RateIt. All rights reserved.</p>
+    </footer>
+</body>
+</html>
